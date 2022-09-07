@@ -104,7 +104,9 @@ footer .social-links a {
     width: 18px;
     height: 18px;
 }
-
+.social-links a:hover {
+    color: #b7b2c2;
+}
 .ingredient li {
     text-decoration-line: underline;
 
