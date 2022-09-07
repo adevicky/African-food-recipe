@@ -74,7 +74,7 @@ nav li.active a {
 
 @media (max-width:900px) {
     h1 {
-        font-size: 34px;
+        font-size: 14px;
     }
 
     .overlay-text {
