@@ -25,6 +25,10 @@ h6 {
 h1 {
     margin-top: 40px;
 }
+h2 {
+    color: var(--branding-color-1);
+    font-size: 56px;
+}
 
 h3 {
     font-size: 24px;
@@ -73,13 +77,15 @@ nav li.active a {
 }
 
 @media (max-width:900px) {
-    h1 {
-        font-size: 14px;
+    h1, h2 {
+        font-size: 18px;
+    }
+    .inner-text {
+        font-size: 6px;
+        text-align: center;
     }
 
-    .overlay-text {
-        font-size: 14px;
-    }
+    
 }
 
 P {
@@ -123,10 +129,11 @@ footer .social-links a {
     padding-right: 0;
 }
 
-.homepage {
-    font-size: 14px;
+.homepage {  
+   font-weight: normal;
+    font-size: 12px;
     color: #E5E5E5;
-}
+    }
 
 .img-fluid {
     border-radius: 12px;
