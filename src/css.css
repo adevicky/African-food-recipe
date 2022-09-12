@@ -10,6 +10,7 @@
 
 body {
     background-color: #E5E5E5;
+    margin-top: 40px;
 }
 h1,
 h2,
@@ -220,4 +221,14 @@ footer .social-links a {
 
 .contacts img {
     padding: 0;
+}
+.procedure a {
+    text-decoration: none;
+    color:var(--branding-color-5);
+}
+.procedure a:hover {
+    color: var(--branding-color-4);
+}
+.methods {
+    border-radius: 10px;
 }
